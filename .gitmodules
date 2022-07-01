@@ -1,0 +1,3 @@
+[submodule "terraform_gcp_vpn"]
+	path = terraform_gcp_vpn
+	url = https://github.com/victorsantosV/terraform_gcp_vpn.git
