@@ -2,3 +2,6 @@
 	path = terraform_gcp_vpn
 	url = https://github.com/victorsantosV/terraform_gcp_vpn.git
 	branch = master
+[submodule "terraform_gcp_mongo_sql"]
+	path = terraform_gcp_mongo_sql
+	url = https://github.com/victorsantosV/terraform_gcp_mongo_sql.git
