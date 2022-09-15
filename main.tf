@@ -23,7 +23,7 @@ provider "google-beta" {
 
 resource "google_service_account" "default" {
   account_id   = "${var.credentials_google_project}"
-  display_name = "finanto_administrator"
+  display_name = "administrator"
 }
 
 ## ==== Create a cluster ===== ##
@@ -54,8 +54,8 @@ resource "google_compute_global_address" "k8s_terraform_static_ip" {
 ## ==== Create ssl certificatad ===== ##
 resource "google_compute_managed_ssl_certificate" "default" {
     provider = "google-beta"
-    name = "signal-dev-finanto-io"
+    name = "ascascascascascascascas"
     managed {
-        domains = ["signal-dev.finanto.io"]
+        domains = ["ascascascas-dev.asca.ioascasca"]
     }
 }
